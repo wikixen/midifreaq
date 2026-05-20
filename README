@@ -1,4 +1,4 @@
-`midifreaq` lets you find the MIDI note for the provided frequency or inversely let's you find the frequency of the provided MIDI note
+midifreaq lets you find the MIDI note for the provided frequency or inversely let's you find the frequency of the provided MIDI note
 
 # Usage
 1. Download the repo & type make in your terminal
