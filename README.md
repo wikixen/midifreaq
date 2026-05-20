@@ -4,7 +4,7 @@
 1. Download the repo & type make in your terminal
 2. Move the executable out of the build directory to desired location
 
-./midifreaq [options] rootFreq freq/midinote octaveDivision
+`./midifreaq [options] rootFreq freq/midinote octaveDivision`
 
 Options:
   - -h: Show documentation
@@ -18,5 +18,7 @@ Enter either a frequency in Hz or a MIDI note in the freq/midinote position.
 Enter an octave division higher than 5 in the octaveDivision position.
 
 Examples:
-./midifreaq -f 440 261.63 12
-./midifreaq -m 440 60 12
+
+`./midifreaq -f 440 261.63 12`
+
+`./midifreaq -m 440 60 12`
