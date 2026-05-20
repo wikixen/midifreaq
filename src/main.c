@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * ./ midifreaq[options] rootFreq freq / midinote octaveDivision
+ * options:
+ * -h : Show documentation
+ * -m : Find midinote closest to frequency
+ * -f : Find frequency of midinote
+ */
+
 int main(int argc, char const *argv[])
 {
   const char *programName = argv[ARG_NAME];
@@ -90,7 +98,7 @@ int main(int argc, char const *argv[])
 
 void usage(const char *filename)
 {
-  printf("%s: Converts MIDI note to frequency or finds MIDI note closest to provided frequency\n\n", filename);
+  printf("%s: Find MIDI note of frequency or finds MIDI note closest to frequency\n\n", filename);
   printf("usage: %s [options] rootFreq freq/midinote octaveDivision\n", filename);
   printf("\t-h: Show documentation\n");
   printf("\t-m: Find midinote closest to frequency instead\n");
